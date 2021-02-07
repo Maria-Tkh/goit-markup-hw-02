@@ -1,0 +1,43 @@
+/* Секция "Портфолио" */
+.button {
+  background-color: var(--ghost-white);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--black-text);
+}
+
+/* Псевдоклассы hover, focus, active для кнопок секции "Портфолио" */
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: var(--blue);
+  color: var(--white-text);
+}
+
+/* Перечень проектов */
+.project-list {
+  background-color: var(--white);
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--black-text);
+}
+
+.project-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--grey-text);
+}

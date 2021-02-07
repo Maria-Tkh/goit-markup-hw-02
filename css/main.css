@@ -1,0 +1,90 @@
+/* Секция "Герой" */
+
+.section-hero {
+  background-color: var(--black);
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text);
+}
+.section-hero .button {
+  background-color: var(--blue);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--white-text);
+}
+
+.section-hero .button:focus,
+.section-hero .button:hover,
+.section-hero .button:active {
+  background-color: var(--white);
+  color: var(--black-text);
+}
+
+/* Секция "Преимущества" */
+.advantage-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--black-text);
+}
+.advantage-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 7;
+  letter-spacing: 0.03em;
+
+  color: var(--grey-text);
+}
+
+/* Подзаголовки секций "Услуги" и "Команда" */
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--black-text);
+}
+
+/* Секция "Команда" */
+
+.section-team {
+  background-color: var(--ghost-white);
+}
+
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--black-text);
+}
+
+.employee-role {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--grey-text);
+}

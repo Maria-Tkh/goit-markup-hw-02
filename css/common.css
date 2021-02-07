@@ -1,0 +1,131 @@
+:root {
+  --white-text: #ffffff;
+  --white-text-op60: rgba(255, 255, 255, 0.6);
+  --black-text: #212121;
+  --grey-text: #757575;
+  --blue-text: #2196f3;
+
+  --white: #ffffff;
+  --ghost-white: #f5f4fa;
+  --black: #2f303a;
+  --blue: #2196f3;
+}
+
+/* Применяем основное семейство шрифтов для всего документа и ссылок */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* Header */
+
+/* Цвет фона хедера */
+.header {
+  background-color: var(--white);
+}
+
+/* Переназначаем шрифт для логотипа*/
+.header .logo-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  color: var(--black-text);
+}
+/* Переназначаем цвет для текста логотипа web */
+
+.logo-title-web {
+  color: var(--blue-text);
+}
+
+/* Шрифт для ссылок меню хедера */
+
+.nav-menu a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--black-text);
+}
+
+/* Псевдоклассы hover, focus, active для хедера */
+.nav-menu .link:hover,
+.nav-menu .link:focus,
+.nav-menu .link:active {
+  color: var(--blue-text);
+}
+
+/* Подсветка страницы, на которой находится пользователь */
+.nav-menu .current-link {
+  color: var(--blue-text);
+}
+
+/* Шрифт для электронной почты в хедере */
+.header .mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--blue-text);
+}
+
+/* Шрифт для телефона в хедере */
+.header .tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--black-text);
+}
+
+/* Footer */
+
+/* Цвет фона футера */
+.footer {
+  background-color: var(--black);
+}
+
+/* Переназначаем шрифт для логотипа в футере*/
+.footer .logo-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  color: var(--white-text);
+}
+
+/* Шрифт для адреса в футере */
+.footer .address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--white-text);
+}
+
+/* Шрифт для электронной почты в футере */
+.footer .mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--white-text-op60);
+}
+/* Шрифт для телефона в футере */
+.footer .tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--white-text-op60);
+}
